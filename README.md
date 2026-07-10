@@ -1,15 +1,7 @@
-<!--
-====================================================================
-  GitHub Profile README  —  kboldham
-  This file must live in a repo named exactly "kboldham" to render
-  on https://github.com/kboldham
-  See the FILL-IN CHECKLIST at the bottom before committing.
-====================================================================
--->
 
 <div align="center">
 
-# Kyle Boldham
+# Kyle Oldham
 
 ### Cybersecurity & IT Infrastructure · Raleigh–Durham, NC
 
@@ -18,8 +10,8 @@ I build production-shaped IT environments, run them like real support queues, an
 
 Open to **IT Support, Help Desk, Systems Administrator, IAM Analyst,** and **SOC Analyst** roles.
 
-<a href="https://www.linkedin.com/in/kyleboldham/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:TODO-your-email@example.com"><img src="https://img.shields.io/badge/Email-Reach_out-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/kyle-oldham-922607266/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:kyleboldham@gmail.com"><img src="https://img.shields.io/badge/Email-Reach_out-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 </div>
 
@@ -124,58 +116,23 @@ A self-hosted Proxmox VE environment simulating small-business IT infrastructure
 ## Featured Projects
 
 ### IT Support & Help Desk Environment
-End-to-end help desk operations across Active Directory, Microsoft 365, Entra ID, Intune, and NinjaOne — user provisioning, Group Policy, file share permissions, license administration, MFA enrollment, patch management, and full employee lifecycle including offboarding. Each task is documented as a worked ServiceNow ticket with steps, verification, and screenshots.
+Help desk operations across Active Directory, Microsoft 365, Entra ID, Intune, and NinjaOne — user provisioning, Group Policy, file share permissions, license administration, MFA enrollment, patch management, and full employee lifecycle including onboarding and offboarding. Each task is documented as a worked ServiceNow ticket with steps, verification, and screenshots.
 
 > **Demonstrates:** Help desk workflow, Windows Server administration, Microsoft 365 administration, IAM, endpoint management, IT documentation.
 >
 > [`kboldham/it-support-environment`](https://github.com/kboldham/it-support-environment)
 
 ### Proxmox SIEM Lab
-A segmented Proxmox VE environment — Wazuh all-in-one SIEM, managed Windows and Linux endpoints, and an attacker host — split across a corporate subnet and an isolated segment. Covers agent enrollment, detection validation, and alert triage mapped to MITRE ATT&CK.
+A segmented Proxmox VE environment, Wazuh all-in-one SIEM, managed Windows and Ubuntu Linux endpoints, and a Kali linux attack vm separatedplit across a corporate subnet and an isolated segment. Covers agent enrollment, detection validation, and alert triage mapped to MITRE ATT&CK.
 
-> **Demonstrates:** Network segmentation, SIEM deployment and tuning, endpoint telemetry, attack/detect workflow.
+> **Demonstrates:** Network segmentation, Log analysis, SIEM deployment and tuning, attack and detect strategies.
 >
 > [`kboldham/proxmox-siem-lab`](https://github.com/kboldham/proxmox-siem-lab)
 
-### Microsoft 365 Lifecycle Automation
-PowerShell automation for onboarding, offboarding, and access reviews in Microsoft 365, built on the **Microsoft Graph PowerShell SDK** and **Entra PowerShell** — deliberately avoiding the retired MSOnline and AzureAD modules.
-
-> **Demonstrates:** IAM, joiner-mover-leaver automation, PowerShell, Microsoft 365 administration.
+### AWS Lab
+Coming Soon ...
 >
-> [`kboldham/m365-lifecycle-automation`](https://github.com/kboldham/m365-lifecycle-automation)
+
 
 ---
 
-<div align="center">
-
-*Build the environment. Operate the environment. Write it down so anyone can pick it up cold.*
-
-</div>
-
-<!--
-====================================================================
-  FILL-IN CHECKLIST  (delete this block once done)
-  --------------------------------------------------------------
-  1. Email ............. replace TODO-your-email@example.com
-  2. Repo slugs ........ confirm the 3 project links resolve. Rename
-                         the repos to match, or edit the links here.
-  3. Homelab table ..... adjust hostnames/IPs if your topology drifted.
-  4. Certifications .... add rows as you earn them (SC-300, AZ-500).
-  5. Repo name ......... this file must live in a repo named exactly
-                         "kboldham" to render on your profile.
-
-  REMOVED FROM THE PREVIOUS VERSION AND WHY:
-  - Typing-animation header: you asked for it gone; it also broke the
-    page for anyone with images blocked.
-  - Profile view counter: vanity metric, third-party dependency.
-  - GitHub stats / streak / top-langs cards: they show commit volume,
-    not competence. For a portfolio built on documentation rather than
-    daily commits, they work against you.
-  - AOS project card: strong work, but it reads as an AI-platform
-    project and pulls focus from the IT support narrative these
-    listings are actually screening for. Add it back as a fourth card
-    once the support repos are populated.
-  - Nessus / Metasploit / Defender badges: kept only what's live in the
-    current lab. Add them back when the repos show them in use.
-====================================================================
--->
