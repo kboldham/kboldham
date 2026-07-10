@@ -36,7 +36,7 @@ Every task in my lab is documented the way it would be handed off to a teammate 
 - **B.S. Information Technology — Cybersecurity Concentration**, NCCU · *Magna Cum Laude*
 - **CompTIA Security+** certified · currently studying for **CompTIA Network+**
 - Operating a full Windows/M365 support environment end to end — provisioning, policy, permissions, lifecycle, offboarding
-- Building **Oldham Technology Group** — Microsoft 365 identity-lifecycle automation for small professional-services firms
+- Building **Oldham Technology Group** — Microsoft 365 identity-lifecycle automation for small professional-services 
 - **Raleigh–Durham, NC** · open to on-site, hybrid, and remote
 
 ---
