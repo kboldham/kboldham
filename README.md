@@ -1,165 +1,181 @@
 <!--
 ====================================================================
   GitHub Profile README  —  kboldham
-  Drop this file into a repo named exactly "kboldham" (same as your
-  username) and it will render on https://github.com/kboldham
-  See the FILL-IN CHECKLIST comment at the bottom before you commit.
+  This file must live in a repo named exactly "kboldham" to render
+  on https://github.com/kboldham
+  See the FILL-IN CHECKLIST at the bottom before committing.
 ====================================================================
 -->
 
 <div align="center">
 
-<!-- Dynamic typing header. Falls back to nothing if the service is down; the static tagline below carries the message regardless. -->
-<a href="https://github.com/kboldham">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=26&pause=1000&color=7AA2F7&center=true&vCenter=true&width=720&lines=Kyle+Oldham;Security-Leaning+IT+Generalist;SOC+%7C+Systems+Admin+%7C+IAM+%7C+IT+Operations;I+build+the+lab%2C+then+I+document+the+lab." alt="Kyle Oldham — Security-Leaning IT Generalist" />
-</a>
+# Kyle Boldham
 
 ### Cybersecurity & IT Infrastructure · Raleigh–Durham, NC
 
-I build production-shaped homelabs, automate identity and access work, and write everything down so it's reproducible. **B.S. in Information Technology (Cybersecurity), Magna Cum Laude.** Open to entry-level **SOC Analyst, IT Support, Systems Administrator, IAM Analyst, and IT Operations** roles.
+I build production-shaped IT environments, run them like real support queues, and document every ticket end to end.
+**B.S. Information Technology (Cybersecurity), Magna Cum Laude · CompTIA Security+**
 
-<!-- FILL IN the two hrefs marked TODO before committing -->
-<a href="https://www.linkedin.com/in/TODO-your-linkedin/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+Open to **IT Support, Help Desk, Systems Administrator, IAM Analyst,** and **SOC Analyst** roles.
+
+<a href="https://www.linkedin.com/in/kyleboldham/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:TODO-your-email@example.com"><img src="https://img.shields.io/badge/Email-Reach_out-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://oldhamtechnology.com"><img src="https://img.shields.io/badge/Oldham_Technology_Group-Consulting-1F6FEB?style=for-the-badge&logo=microsoft&logoColor=white" alt="Oldham Technology Group" /></a>
-<img src="https://komarev.com/ghpvc/?username=kboldham&style=for-the-badge&color=7AA2F7&label=Profile+Views" alt="Profile views" />
 
 </div>
 
 ---
 
-## 🛡️ About
+## Contents
 
-I'm a recent **North Carolina Central University** graduate focused on the identity, infrastructure, and detection side of security. I learn by building the real thing: a multi-VM Proxmox lab with a corporate subnet and an isolated DMZ, a Wazuh SIEM watching managed endpoints, an Active Directory domain with bulk-provisioned users, and Microsoft 365 / Entra ID lifecycle automation written in PowerShell against the current Microsoft Graph SDK.
-
-My bias is toward **project-based, low-noise security and identity work** — IAM, GRC automation, systems administration — over reactive ticket queues, though I'm equally happy proving myself in a SOC or support seat first. Everything I build gets documented to a standard a teammate could pick up cold.
-
-- 🎓 **B.S. Information Technology — Cybersecurity Concentration**, NCCU · *Magna Cum Laude*
-- 🔐 **CompTIA Security+** certified · studying for **Network+** and **AWS Cloud Practitioner**
-- 🧪 Currently finishing **AOS** — an agentic operations platform running on my Proxmox SIEM lab
-- 🧰 Building **Oldham Technology Group** — Microsoft 365 identity-lifecycle automation for small professional-services firms
-- 📍 **Raleigh–Durham, NC** · open to on-site, hybrid, and remote
+- [About](#about)
+- [Certifications](#certifications)
+- [Core Skills](#core-skills)
+- [Homelab Environment](#homelab-environment)
+- [Featured Projects](#featured-projects)
 
 ---
 
-## 🧰 Tech & Tools
+## About
 
-**Security & Detection**
+I'm a recent **North Carolina Central University** graduate focused on the identity, infrastructure, and support side of IT. I learn by building the real thing and then operating it: a multi-VM Proxmox lab with a segmented corporate subnet, a Windows Server 2022 Active Directory domain, a Microsoft 365 and Entra ID tenant, endpoint management through Intune and NinjaOne, and a ServiceNow instance where the resulting work actually gets ticketed and closed.
 
-![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-3A8BBB?style=flat-square&logo=wazuh&logoColor=white)
-![Microsoft Defender](https://img.shields.io/badge/Microsoft_Defender-EDR-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-![Nessus](https://img.shields.io/badge/Nessus-Vuln_Scanning-00A98F?style=flat-square)
-![Metasploit](https://img.shields.io/badge/Metasploit-3A4DEF?style=flat-square&logo=metasploit&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-Mapping-C8102E?style=flat-square)
+Every task in my lab is documented the way it would be handed off to a teammate — issue, steps, verification, resolution. That habit is the point of the portfolio, not a side effect of it.
 
-**Cloud & Identity**
+- **B.S. Information Technology — Cybersecurity Concentration**, NCCU · *Magna Cum Laude*
+- **CompTIA Security+** certified · currently studying for **CompTIA Network+**
+- Operating a full Windows/M365 support environment end to end — provisioning, policy, permissions, lifecycle, offboarding
+- Building **Oldham Technology Group** — Microsoft 365 identity-lifecycle automation for small professional-services firms
+- **Raleigh–Durham, NC** · open to on-site, hybrid, and remote
+
+---
+
+## Certifications
+
+| Credential | Status |
+| :--- | :--- |
+| **CompTIA Security+ (SY0-701)** | Certified |
+| **CompTIA Network+ (N10-009)** | In progress |
+
+---
+
+## Core Skills
+
+| Category | Skills |
+| :--- | :--- |
+| **Help Desk & Service Delivery** | ServiceNow ITSM, incident and request management, ticket documentation, end-user support, escalation and resolution workflow |
+| **Identity & Access Management** | Active Directory, Microsoft Entra ID, user lifecycle (joiner/mover/leaver), security and distribution groups, role review, MFA enforcement |
+| **Systems Administration** | Windows Server 2022, Group Policy, domain join, SMB file shares, NTFS and share permissions, least-privilege access design |
+| **Cloud & Modern Workplace** | Microsoft 365 Admin Center, Exchange Online, SharePoint Online, Microsoft Teams, license administration |
+| **Endpoint & Patch Management** | Microsoft Intune (MDM/MAM), NinjaOne, device enrollment, compliance policy, patch deployment |
+| **Security Operations** | Wazuh SIEM, endpoint telemetry, alert triage, MITRE ATT&CK mapping, vulnerability scanning |
+| **Scripting & Automation** | PowerShell, Microsoft Graph PowerShell SDK, Bash, Python |
+
+---
+
+## Tech & Tools
+
+**Identity, Cloud & Endpoint**
 
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft_Entra_ID-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Microsoft 365](https://img.shields.io/badge/Microsoft_365-D83B01?style=flat-square&logo=microsoftoffice&logoColor=white)
 ![Intune](https://img.shields.io/badge/Intune-MDM%2FMAM-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![NinjaOne](https://img.shields.io/badge/NinjaOne-Patch_Management-1F6FEB?style=flat-square)
 ![Microsoft Graph](https://img.shields.io/badge/Microsoft_Graph-PowerShell_SDK-2C2C2C?style=flat-square&logo=microsoft&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-Cloud_Practitioner_(WIP)-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
 
-**Infrastructure & Virtualization**
+**Infrastructure & Directory Services**
 
-![Proxmox](https://img.shields.io/badge/Proxmox_VE-E57000?style=flat-square&logo=proxmox&logoColor=white)
 ![Windows Server](https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox_VE-E57000?style=flat-square&logo=proxmox&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu_24.04_LTS-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-**Scripting & Automation**
+**Service Management & Security**
+
+![ServiceNow](https://img.shields.io/badge/ServiceNow-81B5A1?style=flat-square&logo=servicenow&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-3A8BBB?style=flat-square&logo=wazuh&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-Mapping-C8102E?style=flat-square)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
+
+**Scripting**
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-**Platforms & Workflow**
-
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white)
-![ServiceNow](https://img.shields.io/badge/ServiceNow-81B5A1?style=flat-square&logo=servicenow&logoColor=white)
 
 ---
 
-## 📜 Certifications
+## Homelab Environment
 
-| Credential | Status |
+A self-hosted Proxmox VE environment simulating small-business IT infrastructure — built to generate real operational work, not just initial setup.
+
+| Layer | Components |
 | :--- | :--- |
-| **CompTIA Security+ (SY0-701)** | ✅ Certified |
-| **CompTIA Network+** | 📖 In progress |
-| **AWS Certified Cloud Practitioner** | 📖 In progress |
+| **Hypervisor** | Proxmox VE |
+| **Directory Services** | Windows Server 2022 domain controller (`DC01`), joined Windows clients (`MANAGED-01`, `MANAGED-02`) |
+| **Network** | NAT'd corporate subnet `10.10.0.0/24` · isolated segment for lab-only traffic |
+| **Cloud Identity** | Microsoft Entra ID tenant · Microsoft 365 Admin Center |
+| **Endpoint Management** | Microsoft Intune · NinjaOne |
+| **Security Monitoring** | Wazuh SIEM (`10.10.0.30`) with agents on managed endpoints |
+| **Service Management** | ServiceNow ITSM instance — every task below is opened, worked, and closed as a ticket |
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🧠 AOS — Agentic Operations System
-A Go-based **Goals-as-a-Service** platform for IT/MSP operations, running on a five-VM Proxmox SIEM lab. Single-binary distribution, direct HTTP to the Claude Messages API, MCP adapters for tooling, and a **hash-chained JSONL audit log tagged with SOC 2 controls** — with Jira and Slack as the operator interface.
-> **Demonstrates:** Go services, SIEM/EDR integration, audit & compliance design, secure architecture, MCP tooling.
-> 🔗 `github.com/kboldham/aos` *(confirm/rename the repo slug)*
+### IT Support & Help Desk Environment
+End-to-end help desk operations across Active Directory, Microsoft 365, Entra ID, Intune, and NinjaOne — user provisioning, Group Policy, file share permissions, license administration, MFA enrollment, patch management, and full employee lifecycle including offboarding. Each task is documented as a worked ServiceNow ticket with steps, verification, and screenshots.
 
-### 🖥️ Proxmox SIEM Lab
-A segmented Proxmox VE environment — controller, **Wazuh 4.14 all-in-one SIEM**, managed Windows/Linux endpoints, and a Kali attacker host — split across a NAT'd corporate subnet (`10.10.0.0/24`) and an isolated DMZ (`10.10.1.0/24`). Includes bridge remapping, agent enrollment, and detection validation.
-> **Demonstrates:** Network segmentation, SIEM deployment & tuning, endpoint telemetry, attack/detect workflow.
-> 🔗 `github.com/kboldham/proxmox-siem-lab` *(confirm/rename the repo slug)*
+> **Demonstrates:** Help desk workflow, Windows Server administration, Microsoft 365 administration, IAM, endpoint management, IT documentation.
+>
+> [`kboldham/it-support-environment`](https://github.com/kboldham/it-support-environment)
 
-### 🗂️ Active Directory Homelab
-A Windows Server 2022 domain controller with a Windows 11 Enterprise client and **100 users bulk-provisioned from CSV via PowerShell** — built to mirror real on-prem identity administration.
-> **Demonstrates:** Active Directory, Group Policy, PowerShell automation, Windows administration.
-> 🔗 [`github.com/kboldham/ad-homelab`](https://github.com/kboldham/ad-homelab) *(confirm the repo slug)*
+### Proxmox SIEM Lab
+A segmented Proxmox VE environment — Wazuh all-in-one SIEM, managed Windows and Linux endpoints, and an attacker host — split across a corporate subnet and an isolated segment. Covers agent enrollment, detection validation, and alert triage mapped to MITRE ATT&CK.
 
-### 🔐 Secure Employee Lifecycle Automation
-Productized onboarding/offboarding and access-review automation for Microsoft 365 firms, built on the **Microsoft Graph PowerShell SDK and Entra PowerShell** (deliberately avoiding the retired MSOnline/AzureAD modules).
-> **Demonstrates:** IAM, joiner-mover-leaver automation, GRC, Microsoft 365 administration.
-> 🔗 `github.com/kboldham/m365-lifecycle-automation` *(confirm/rename the repo slug)*
+> **Demonstrates:** Network segmentation, SIEM deployment and tuning, endpoint telemetry, attack/detect workflow.
+>
+> [`kboldham/proxmox-siem-lab`](https://github.com/kboldham/proxmox-siem-lab)
 
----
+### Microsoft 365 Lifecycle Automation
+PowerShell automation for onboarding, offboarding, and access reviews in Microsoft 365, built on the **Microsoft Graph PowerShell SDK** and **Entra PowerShell** — deliberately avoiding the retired MSOnline and AzureAD modules.
 
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=kboldham&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="kboldham GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kboldham&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=8" alt="Top languages" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kboldham&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub streak" />
-
-</div>
+> **Demonstrates:** IAM, joiner-mover-leaver automation, PowerShell, Microsoft 365 administration.
+>
+> [`kboldham/m365-lifecycle-automation`](https://github.com/kboldham/m365-lifecycle-automation)
 
 ---
 
 <div align="center">
 
-*Building the lab, then writing it down so anyone can rebuild it.*
+*Build the environment. Operate the environment. Write it down so anyone can pick it up cold.*
 
 </div>
 
 <!--
 ====================================================================
-  ✅ FILL-IN CHECKLIST  (delete this block once done)
+  FILL-IN CHECKLIST  (delete this block once done)
   --------------------------------------------------------------
-  1. LinkedIn URL ........ replace  TODO-your-linkedin  (line ~26)
-  2. Email ............... replace  TODO-your-email@example.com  (line ~27)
-  3. oldhamtechnology.com  remove the badge if the site isn't live yet
-  4. Repo slugs .......... confirm/rename the 4 project links so they
-                            point to your real repos. ad-homelab is the
-                            only one assumed to exist as-is.
-  5. Name ................ I used "Kyle Oldham" from your brand; change if
-                            you publish under a different name.
-  6. Repo name ........... this file must live in a repo named exactly
-                            "kboldham" to render on your profile.
+  1. Email ............. replace TODO-your-email@example.com
+  2. Repo slugs ........ confirm the 3 project links resolve. Rename
+                         the repos to match, or edit the links here.
+  3. Homelab table ..... adjust hostnames/IPs if your topology drifted.
+  4. Certifications .... add rows as you earn them (SC-300, AZ-500).
+  5. Repo name ......... this file must live in a repo named exactly
+                         "kboldham" to render on your profile.
 
-  NOTE ON DYNAMIC WIDGETS:
-  - The typing header, stats cards, and streak card are third-party
-    services (demolab / vercel / herokuapp). They're live as of now but
-    can rate-limit or go down. If one ever shows a broken image, the
-    page still reads fine without it. To make any of them permanent,
-    say the word and I'll swap in static SVGs or a GitHub Action that
-    renders them on a schedule.
+  REMOVED FROM THE PREVIOUS VERSION AND WHY:
+  - Typing-animation header: you asked for it gone; it also broke the
+    page for anyone with images blocked.
+  - Profile view counter: vanity metric, third-party dependency.
+  - GitHub stats / streak / top-langs cards: they show commit volume,
+    not competence. For a portfolio built on documentation rather than
+    daily commits, they work against you.
+  - AOS project card: strong work, but it reads as an AI-platform
+    project and pulls focus from the IT support narrative these
+    listings are actually screening for. Add it back as a fourth card
+    once the support repos are populated.
+  - Nessus / Metasploit / Defender badges: kept only what's live in the
+    current lab. Add them back when the repos show them in use.
 ====================================================================
 -->
