@@ -5,10 +5,9 @@
 
 ### Cybersecurity & IT Infrastructure · Raleigh–Durham, NC
 
-I build production-shaped IT environments, run them like real support queues, and document every ticket end to end.
-**B.S. Information Technology (Cybersecurity), Magna Cum Laude · CompTIA Security+**
+**B.S. Information Technology (Cybersecurity) · CompTIA Security+**
 
-Open to **IT Support, Help Desk, Systems Administrator, IAM Analyst,** and **SOC Analyst** roles.
+Open to **IT Support, Help Desk, and Data Center Technician** roles.
 
 <a href="https://www.linkedin.com/in/kyle-oldham-922607266/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:kyleboldham@gmail.com"><img src="https://img.shields.io/badge/Email-Reach_out-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -20,24 +19,22 @@ Open to **IT Support, Help Desk, Systems Administrator, IAM Analyst,** and **SOC
 ## Contents
 
 - [About](#about)
+- [Education](#education)
 - [Certifications](#certifications)
 - [Core Skills](#core-skills)
 - [Homelab Environment](#homelab-environment)
-- [Featured Projects](#featured-projects)
+- [Projects](#projects)
 
 ---
 
 ## About
 
-I'm a recent **North Carolina Central University** graduate focused on the identity, infrastructure, and support side of IT. I learn by building the real thing and then operating it: a multi-VM Proxmox lab with a segmented corporate subnet, a Windows Server 2022 Active Directory domain, a Microsoft 365 and Entra ID tenant, endpoint management through Intune and NinjaOne, and a ServiceNow instance where the resulting work actually gets ticketed and closed.
+I'm a recent **North Carolina Central University** graduate focused on the identity, infrastructure, and support side of IT.
+I build and maintain a homelab to gain hands-on experience with modern IT infrastructure, identity management, endpoint administration, and security operations. Within this environment I practice networking, Windows Server 2022 Active Directory administration, Microsoft 365 and Entra ID management, endpoint administration through Intune, and IT service workflows using ServiceNow. I document every task as though in a production environment, with tickets, steps, and resolution notes. 
 
-Every task in my lab is documented the way it would be handed off to a teammate — issue, steps, verification, resolution. That habit is the point of the portfolio, not a side effect of it.
-
-- **B.S. Information Technology — Cybersecurity Concentration**, NCCU · *Magna Cum Laude*
-- **CompTIA Security+** certified · currently studying for **CompTIA Network+**
-- Operating a full Windows/M365 support environment end to end — provisioning, policy, permissions, lifecycle, offboarding
-- Building **Oldham Technology Group** — Microsoft 365 identity-lifecycle automation for small professional-services 
-- **Raleigh–Durham, NC** · open to on-site, hybrid, and remote
+## Education 
+ **B.S. Information Technology — Cybersecurity**, **North Carolina Central University** (May 2026)
+ > Relavant Coursework: 
 
 ---
 
@@ -45,8 +42,9 @@ Every task in my lab is documented the way it would be handed off to a teammate 
 
 | Credential | Status |
 | :--- | :--- |
-| **CompTIA Security+ (SY0-701)** | Certified |
+| **CompTIA Security+ (SY0-701)** | Complete |
 | **CompTIA Network+ (N10-009)** | In progress |
+| **AWS Certified Cloud Practitioner (CLF-C02)** | In progress |
 
 ---
 
@@ -58,9 +56,9 @@ Every task in my lab is documented the way it would be handed off to a teammate 
 | **Identity & Access Management** | Active Directory, Microsoft Entra ID, user lifecycle (joiner/mover/leaver), security and distribution groups, role review, MFA enforcement |
 | **Systems Administration** | Windows Server 2022, Group Policy, domain join, SMB file shares, NTFS and share permissions, least-privilege access design |
 | **Cloud & Modern Workplace** | Microsoft 365 Admin Center, Exchange Online, SharePoint Online, Microsoft Teams, license administration |
-| **Endpoint & Patch Management** | Microsoft Intune (MDM/MAM), NinjaOne, device enrollment, compliance policy, patch deployment |
-| **Security Operations** | Wazuh SIEM, endpoint telemetry, alert triage, MITRE ATT&CK mapping, vulnerability scanning |
-| **Scripting & Automation** | PowerShell, Microsoft Graph PowerShell SDK, Bash, Python |
+| **Endpoint & Patch Management** | Microsoft Intune (MDM/MAM) device enrollment, compliance policy, patch deployment |
+| **Security Operations** | Wazuh SIEM, alert triage, MITRE ATT&CK framework, vulnerability scanning |
+| **Scripting & Automation** | PowerShell, Bash, Python |
 
 ---
 
@@ -71,7 +69,6 @@ Every task in my lab is documented the way it would be handed off to a teammate 
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft_Entra_ID-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Microsoft 365](https://img.shields.io/badge/Microsoft_365-D83B01?style=flat-square&logo=microsoftoffice&logoColor=white)
 ![Intune](https://img.shields.io/badge/Intune-MDM%2FMAM-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-![NinjaOne](https://img.shields.io/badge/NinjaOne-Patch_Management-1F6FEB?style=flat-square)
 ![Microsoft Graph](https://img.shields.io/badge/Microsoft_Graph-PowerShell_SDK-2C2C2C?style=flat-square&logo=microsoft&logoColor=white)
 
 **Infrastructure & Directory Services**
@@ -85,7 +82,7 @@ Every task in my lab is documented the way it would be handed off to a teammate 
 
 ![ServiceNow](https://img.shields.io/badge/ServiceNow-81B5A1?style=flat-square&logo=servicenow&logoColor=white)
 ![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-3A8BBB?style=flat-square&logo=wazuh&logoColor=white)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-Mapping-C8102E?style=flat-square)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-Framework-C8102E?style=flat-square)
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 
 **Scripting**
@@ -99,40 +96,47 @@ Every task in my lab is documented the way it would be handed off to a teammate 
 
 ## Homelab Environment
 
-A self-hosted Proxmox VE environment simulating small-business IT infrastructure — built to generate real operational work, not just initial setup.
+A self-hosted Proxmox VE environment simulating small-business IT infrastructure, built to generate realistic operational scenarios. 
 
 | Layer | Components |
 | :--- | :--- |
 | **Hypervisor** | Proxmox VE |
 | **Directory Services** | Windows Server 2022 domain controller (`DC01`), joined Windows clients (`MANAGED-01`, `MANAGED-02`) |
-| **Network** | NAT'd corporate subnet `10.10.0.0/24` · isolated segment for lab-only traffic |
+| **Network** | Simulated corporate subnet `10.10.0.0/24` · Isolated segment for lab-only traffic |
 | **Cloud Identity** | Microsoft Entra ID tenant · Microsoft 365 Admin Center |
-| **Endpoint Management** | Microsoft Intune · NinjaOne |
+| **Endpoint Management** | Microsoft Intune|
 | **Security Monitoring** | Wazuh SIEM (`10.10.0.30`) with agents on managed endpoints |
-| **Service Management** | ServiceNow ITSM instance — every task below is opened, worked, and closed as a ticket |
+| **Service Management** | ServiceNow ITSM Developer Instance used for documenting simulated incidents, requests, and change activities. |
 
 ---
 
-## Featured Projects
+## Projects
 
 ### IT Support & Help Desk Environment
-Help desk operations across Active Directory, Microsoft 365, Entra ID, Intune, and NinjaOne — user provisioning, Group Policy, file share permissions, license administration, MFA enrollment, patch management, and full employee lifecycle including onboarding and offboarding. Each task is documented as a worked ServiceNow ticket with steps, verification, and screenshots.
+Simulated help desk operations across Active Directory, Microsoft 365, Entra ID, Intune
 
-> **Demonstrates:** Help desk workflow, Windows Server administration, Microsoft 365 administration, IAM, endpoint management, IT documentation.
+> **Demonstrates:** Help desk workflow, Windows Server administration, Microsoft 365 administration, IAM, Endpoint management, IT documentation.
 >
-> [`kboldham/it-support-environment`](https://github.com/kboldham/it-support-environment)
+> 
 
-### Proxmox SIEM Lab
-A segmented Proxmox VE environment, Wazuh all-in-one SIEM, managed Windows and Ubuntu Linux endpoints, and a Kali linux attack vm separatedplit across a corporate subnet and an isolated segment. Covers agent enrollment, detection validation, and alert triage mapped to MITRE ATT&CK.
+### Data Center Environment
+Simulate data center operations using Ubuntu Server VMs and a simulated environment in Packet Tracer
 
-> **Demonstrates:** Network segmentation, Log analysis, SIEM deployment and tuning, attack and detect strategies.
+> **Demonstrates:**
 >
-> [`kboldham/proxmox-siem-lab`](https://github.com/kboldham/proxmox-siem-lab)
+> 
+
+
+### Wazuh SIEM Lab
+A segmented Proxmox VE environment, Wazuh all-in-one SIEM, managed Windows and Ubuntu Linux endpoints, and a Kali Linux attack VM separated across a corporate subnet and an isolated segment. Covers agent enrollment, detection validation, and alert triage mapped to MITRE ATT&CK.
+
+> **Demonstrates:** Network segmentation, Log analysis, SIEM deployment and tuning, Attack and detect strategies.
+>
+> 
 
 ### AWS Lab
-Coming Soon ...
+In progress ...
 >
 
 
 ---
-
