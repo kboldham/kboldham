@@ -44,7 +44,7 @@ Relevant Coursework: Project Management, Systems Analysis and Design (SDLC), Bus
 | Credential | Status |
 | :--- | :--- |
 | **CompTIA Security+** | Complete |
-| **CompTIA Network+** | In progress |
+| **CompTIA Network+** | Complete |
 | **EC-Council AI Essentials** | Complete |
 
 ---
