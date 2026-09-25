@@ -6,9 +6,9 @@ CompTIA Network+ | CompTIA Security+ | EC-Council AI Essentials
 
 
 ## Projects
-[Active Directory Lab](./Active-Directory-Lab)   
-[Spiceworks Ticketing Lab](spiceworks-help-desk-ticketing-lab)  
-[Windows and Network Troubleshooting Lab](./Windows-and-Network-Troubleshooting-Lab)   
-[University Capstone](./speakequal)  
+[Active Directory Lab](https://github.com/kboldham/Active-Directory-Lab)   
+[Spiceworks Ticketing Lab](https://github.com/kboldham/Spiceworks-Ticketing-Lab)
+[Windows and Network Troubleshooting Lab](https://github.com/kboldham/Windows-and-Network-Troubleshooting-Lab)   
+[University Capstone](https://github.com/kboldham/speakequal)  
 
 
